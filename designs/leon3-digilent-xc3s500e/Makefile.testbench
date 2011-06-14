@@ -1,0 +1,23 @@
+
+DIR_IMAGE=./images/
+IMAGE=image
+IMAGEBZ=image-2.0.x.flashbz
+
+SECTIONS=-j .text -j .data -j .rodata
+
+CROSS=sparc-elf-
+
+
+all:$(IMAGE)
+
+
+
+
+
+
+$(IMAGE): $(DIR_IMAGE)$(IMAGEBZ)
+	$(CROSS)objcopy $(SECTIONS) -O binary $< $@.bin
+	$(CROSS)objcopy -O srec $< $@.srec
+
+
+$(DIR_IMAGE)$(IMAGEBZ):

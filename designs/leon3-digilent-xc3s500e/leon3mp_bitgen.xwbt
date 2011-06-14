@@ -1,0 +1,7 @@
+INFILE=/home/beren/instaladores/linux_empotrado/sparc/grlib-gpl-1.0.22-b4095/designs/leon3-digilent-xc3s500e_b/leon3mp.ncd
+OUTFILE=/home/beren/instaladores/linux_empotrado/sparc/grlib-gpl-1.0.22-b4095/designs/leon3-digilent-xc3s500e_b/leon3mp.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/beren/instaladores/linux_empotrado/sparc/grlib-gpl-1.0.22-b4095/designs/leon3-digilent-xc3s500e_b
+LICENSE=WebPack
+USER_INFO=180484028_0_0_718

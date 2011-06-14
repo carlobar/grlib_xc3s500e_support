@@ -1,0 +1,16 @@
+Release 12.1 - WebTalk (M.53d)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Project Information
+--------------------
+ProjectID=91476B2F4F43B6FAD7DA3547E031FE87
+ProjectIteration=36
+
+WebTalk Summary
+----------------
+INFO:WebTalk:1 - WebTalk is enabled because you are using a WebPACK license.
+
+INFO:WebTalk:8 - WebTalk Install setting is ON.
+INFO:WebTalk:6 - WebTalk User setting is ON.
+
+INFO:WebTalk:5 - /home/beren/instaladores/linux_empotrado/sparc/grlib-gpl-1.0.22-b4095/designs/leon3-digilent-xc3s500e_b/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/12.1/ISE_DS/ISE/data/reports/webtalk_introduction.html

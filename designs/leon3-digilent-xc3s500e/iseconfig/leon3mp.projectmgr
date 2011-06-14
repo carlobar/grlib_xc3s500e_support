@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="1" owner="projectmgr" name="leon3mp" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNode>/ADD32 - A</ClosedNode>
+         <ClosedNode>/Wild2AHB - RTL</ClosedNode>
+         <ClosedNode>/ahbdma - struct</ClosedNode>
+         <ClosedNode>/ahbdpram - rtl</ClosedNode>
+         <ClosedNode>/ahbjtag_bsd - struct</ClosedNode>
+         <ClosedNode>/ahbtrace - rtl</ClosedNode>
+         <ClosedNode>/apbvga - rtl</ClosedNode>
+         <ClosedNode>/clkmux - rtl</ClosedNode>
+         <ClosedNode>/clkpad_ds - rtl</ClosedNode>
+         <ClosedNode>/ddr2spa - rtl</ClosedNode>
+         <ClosedNode>/ddrctrl - rtl</ClosedNode>
+         <ClosedNode>/greth_gbit_gen - rtl</ClosedNode>
+         <ClosedNode>/greth_gen - rtl</ClosedNode>
+         <ClosedNode>/grethm - rtl/u0 - greth - rtl</ClosedNode>
+         <ClosedNode>/grethm - rtl/u0 - greth_gbit - rtl</ClosedNode>
+         <ClosedNode>/grfpushwx - rtl</ClosedNode>
+         <ClosedNode>/grspwc2_net - rtl</ClosedNode>
+         <ClosedNode>/grspwc_net - rtl</ClosedNode>
+         <ClosedNode>/grsysmon - rtl</ClosedNode>
+         <ClosedNode>/grusbhc_net - rtl</ClosedNode>
+         <ClosedNode>/i2cmst_gen - rtl</ClosedNode>
+         <ClosedNode>/inpad_ddrv - rtl</ClosedNode>
+         <ClosedNode>/inpad_dsv - rtl</ClosedNode>
+         <ClosedNode>/inpadv - rtl</ClosedNode>
+         <ClosedNode>/iodpadv - rtl</ClosedNode>
+         <ClosedNode>/iopad_ddrv - rtl</ClosedNode>
+         <ClosedNode>/iopad_ddrvv - rtl</ClosedNode>
+         <ClosedNode>/iopad_dsv - rtl</ClosedNode>
+         <ClosedNode>/iopad_dsvv - rtl</ClosedNode>
+         <ClosedNode>/iopadvv - rtl</ClosedNode>
+         <ClosedNode>/leon3cg - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/addr_pad - outpadv - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/ahbjtag0 - ahbjtag - struct</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/ahbram0 - ahbram - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/clk_pad - clkpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/clkgen0 - clkgen - struct</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/data_pad - iopadv - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/dcom0 - ahbuart - struct</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/ddrc - ddrspa - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/dsu0 - dsu3 - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/dsubre_pad - inpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/dsurx_pad - inpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/dsutx_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/e1 - grethm - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/emdc_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/emdio_pad - iopad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/error_pad - odpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/erxc_pad - inpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/erxco_pad - inpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/erxcr_pad - inpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/erxd_pad - inpadv - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/erxdv_pad - inpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/erxer_pad - inpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/etxc_pad - inpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/etxd_pad - outpadv - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/etxen_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/etxer_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/horiz_sync_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/kbdata_pad - iopad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/kbdclk_pad - iopad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/oen_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/roms_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/serrx_pad - inpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/sertx_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/sr1 - mctrl - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/svga0 - svgactrl - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/u0 - leon3s - rtl/cmem0 - cachemem - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/u0 - leon3s - rtl/fpu0 - grfpwx - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/u0 - leon3s - rtl/fpu0 - grlfpwx - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/u0 - leon3s - rtl/fpu0 - mfpwx - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/u0 - leon3s - rtl/p0 - proc3 - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/u0 - leon3s - rtl/rf0 - regfile_3p - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/u0 - leon3s - rtl/tbmem0 - tbufmem - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/vert_sync_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/video_out_b_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/video_out_g_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/video_out_r_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3mp - rtl/wri_pad - outpad - rtl</ClosedNode>
+         <ClosedNode>/leon3sh - rtl</ClosedNode>
+         <ClosedNode>/logan - rtl</ClosedNode>
+         <ClosedNode>/lvds_combo - rtl</ClosedNode>
+         <ClosedNode>/mul_61x61 - rtl</ClosedNode>
+         <ClosedNode>/nandtree - rtl</ClosedNode>
+         <ClosedNode>/odpadv - rtl</ClosedNode>
+         <ClosedNode>/outpad_ddrv - rtl</ClosedNode>
+         <ClosedNode>/outpad_dsv - rtl</ClosedNode>
+         <ClosedNode>/ringosc - rtl</ClosedNode>
+         <ClosedNode>/skew_outpad - rtl</ClosedNode>
+         <ClosedNode>/spartan6_ddr2_phy - rtl</ClosedNode>
+         <ClosedNode>/ssrctrl_net - rtl</ClosedNode>
+         <ClosedNode>/syncfifo - rtl</ClosedNode>
+         <ClosedNode>/toutpadv - rtl</ClosedNode>
+         <ClosedNode>/toutpadvv - rtl</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>leon3mp - rtl (/home/beren/instaladores/linux_empotrado/sparc/grlib-gpl-1.0.22-b4095/designs/leon3-digilent-xc3s500e_b/leon3mp.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >63</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000215000000020000000000000000000000000000000064ffffffff000000810000000000000002000002150000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>leon3mp - rtl (/home/beren/instaladores/linux_empotrado/sparc/grlib-gpl-1.0.22-b4095/designs/leon3-digilent-xc3s500e_b/leon3mp.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>View RTL Schematic</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000182000000010000000100000000000000000000000064ffffffff000000810000000000000001000001820000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>View RTL Schematic</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes/>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002a1000000040101000100000000000000000000000064ffffffff000000810000000000000004000000d00000000100000000000000de00000001000000000000008f0000000100000000000000640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>DW02_components.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNode>cypress</ClosedNode>
+         <ClosedNode>dw02</ClosedNode>
+         <ClosedNode>esa</ClosedNode>
+         <ClosedNode>eth</ClosedNode>
+         <ClosedNode>fmf</ClosedNode>
+         <ClosedNode>gaisler</ClosedNode>
+         <ClosedNode>grlib</ClosedNode>
+         <ClosedNode>gsi</ClosedNode>
+         <ClosedNode>hynix</ClosedNode>
+         <ClosedNode>micron</ClosedNode>
+         <ClosedNode>synplify</ClosedNode>
+         <ClosedNode>techmap</ClosedNode>
+         <ClosedNode>unisim</ClosedNode>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>sim.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000191000000010001000100000000000000000000000064ffffffff000000810000000000000001000001910000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>sim.vhd</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Add Existing Source</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000191000000010000000100000000000000000000000064ffffffff000000810000000000000001000001910000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Add Existing Source</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001510000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Add Existing Source</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000191000000010000000100000000000000000000000064ffffffff000000810000000000000001000001910000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Add Existing Source</CurrentItem>
+   </ItemView>
+</Project>

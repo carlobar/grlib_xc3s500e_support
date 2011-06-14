@@ -1,0 +1,20 @@
+Release 12.1 - netgen M.53d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm leon3mp -w
+-dir netgen/translate -ofmt vhdl -sim leon3mp.ngd leon3mp_translate.vhd  
+
+Reading design 'leon3mp.ngd' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist
+'/home/beren/instaladores/linux_empotrado/sparc/grlib-gpl-1.0.22-b4095/designs/l
+eon3-digilent-xc3s500e_b/netgen/translate/leon3mp_translate.vhd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 82392 kilobytes

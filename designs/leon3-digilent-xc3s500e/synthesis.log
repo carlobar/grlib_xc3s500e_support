@@ -1,0 +1,604 @@
+../../bin/route_ngc leon3mp leon3mp.ucf XC3S500E-fg320-5 high ../../boards/digilent-xc3s500e/default.ut ../../netlists/xilinx/Spartan3E -timing
+ngdbuild leon3mp.ngc -aul -uc leon3mp.ucf -p XC3S500E-fg320-5 -sd ../../netlists/xilinx/Spartan3E/xst -sd ../../netlists/xilinx/Spartan3E
+Release 12.1 - ngdbuild M.53d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/12.1/ISE_DS/ISE/bin/lin/unwrapped/ngdbuild leon3mp.ngc
+-aul -uc leon3mp.ucf -p XC3S500E-fg320-5 -sd ../../netlists/xilinx/Spartan3E/xst
+-sd ../../netlists/xilinx/Spartan3E
+
+Reading NGO file
+"/home/beren/instaladores/linux_empotrado/sparc/grlib-gpl-1.0.22-b4095/designs/l
+eon3-digilent-xc3s500e_b/leon3mp.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "leon3mp.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:59 - Constraint <NET "errorn" LOC = "F9" |>
+   [leon3mp.ucf(83)]: NET "errorn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "errorn" LOC = "F9" |> [leon3mp.ucf(83)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD = LVTTL |> [leon3mp.ucf(83)]:
+   NET "errorn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW =  SLOW |> [leon3mp.ucf(83)]: NET
+   "errorn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE = 8  |> [leon3mp.ucf(83)]: NET
+   "errorn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLUP;> [leon3mp.ucf(83)]: NET "errorn"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "ddr_clk0b"		LOC = "J4" |>
+   [leon3mp.ucf(125)]: NET "ddr_clk0b" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "ddr_clk0b"		LOC = "J4" |> [leon3mp.ucf(125)]' could not be found and
+   so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL2_I ;>
+   [leon3mp.ucf(125)]: NET "ddr_clk0b" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "ddr_clk0"			LOC = "J5" |>
+   [leon3mp.ucf(126)]: NET "ddr_clk0" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "ddr_clk0"			LOC = "J5" |> [leon3mp.ucf(126)]' could not be found and
+   so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL2_I ;>
+   [leon3mp.ucf(126)]: NET "ddr_clk0" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net etx_clk LOC=T7;> [leon3mp.ucf(158)]:
+   NET "etx_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net etx_clk LOC=T7;> [leon3mp.ucf(158)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net etx_clk IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(159)]: NET "etx_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_clk LOC=V3 ;> [leon3mp.ucf(160)]:
+   NET "erx_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net erx_clk LOC=V3 ;> [leon3mp.ucf(160)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_clk IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(161)]: NET "erx_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_crs LOC=U13;> [leon3mp.ucf(162)]:
+   NET "erx_crs" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net erx_crs LOC=U13;> [leon3mp.ucf(162)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_crs IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(163)]: NET "erx_crs" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_dv LOC=V2;> [leon3mp.ucf(164)]:
+   NET "erx_dv" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net erx_dv LOC=V2;> [leon3mp.ucf(164)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_dv IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(165)]: NET "erx_dv" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net erxd(0) LOC=V8;> [leon3mp.ucf(166)]:
+   NET "erxd(0)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net erxd(0) LOC=V8;> [leon3mp.ucf(166)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net erxd(0) IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(167)]: NET "erxd(0)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net erxd(1) LOC=T11;> [leon3mp.ucf(168)]:
+   NET "erxd(1)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net erxd(1) LOC=T11;> [leon3mp.ucf(168)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net erxd(1) IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(169)]: NET "erxd(1)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net erxd(2) LOC=U11;> [leon3mp.ucf(170)]:
+   NET "erxd(2)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net erxd(2) LOC=U11;> [leon3mp.ucf(170)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net erxd(2) IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(171)]: NET "erxd(2)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net erxd(3) LOC=V14;> [leon3mp.ucf(172)]:
+   NET "erxd(3)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net erxd(3) LOC=V14;> [leon3mp.ucf(172)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net erxd(3) IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(173)]: NET "erxd(3)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_col LOC=U6;> [leon3mp.ucf(174)]:
+   NET "erx_col" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net erx_col LOC=U6;> [leon3mp.ucf(174)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_col IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(175)]: NET "erx_col" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_er LOC=U14;> [leon3mp.ucf(176)]:
+   NET "erx_er" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net erx_er LOC=U14;> [leon3mp.ucf(176)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net erx_er IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(177)]: NET "erx_er" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net etx_en LOC=P16;> [leon3mp.ucf(178)]:
+   NET "etx_en" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net etx_en LOC=P16;> [leon3mp.ucf(178)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net etx_en IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(179)]: NET "etx_en" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net etxd(0) LOC=R11;> [leon3mp.ucf(180)]:
+   NET "etxd(0)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net etxd(0) LOC=R11;> [leon3mp.ucf(180)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net etxd(0) IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(181)]: NET "etxd(0)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net etxd(1) LOC=T15;> [leon3mp.ucf(182)]:
+   NET "etxd(1)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net etxd(1) LOC=T15;> [leon3mp.ucf(182)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net etxd(1) IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(183)]: NET "etxd(1)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net etxd(2) LOC=R5;> [leon3mp.ucf(184)]:
+   NET "etxd(2)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net etxd(2) LOC=R5;> [leon3mp.ucf(184)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net etxd(2) IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(185)]: NET "etxd(2)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net etxd(3) LOC=T5;> [leon3mp.ucf(186)]:
+   NET "etxd(3)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net etxd(3) LOC=T5;> [leon3mp.ucf(186)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net etxd(3) IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(187)]: NET "etxd(3)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net etx_er LOC=R6 |> [leon3mp.ucf(188)]:
+   NET "etx_er" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net etx_er LOC=R6 |> [leon3mp.ucf(188)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(188)]: NET "etx_er" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net emdc LOC=P9;> [leon3mp.ucf(189)]: NET
+   "emdc" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net emdc LOC=P9;> [leon3mp.ucf(189)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net emdc IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(190)]: NET "emdc" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net emdio LOC=U5;> [leon3mp.ucf(191)]:
+   NET "emdio" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net emdio LOC=U5;> [leon3mp.ucf(191)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <Net emdio IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(192)]: NET "emdio" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <Net sts LOC=B18 ;> [leon3mp.ucf(242)]:
+   NET "sts" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net sts LOC=B18 ;> [leon3mp.ucf(242)]' could not be found and so the Locate
+   constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET ps2data LOC = G13 |>
+   [leon3mp.ucf(244)]: NET "ps2data" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ps2data LOC = G13 |> [leon3mp.ucf(244)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(244)]: NET "ps2data" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ps2clk  LOC = G14 |>
+   [leon3mp.ucf(245)]: NET "ps2clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ps2clk  LOC = G14 |> [leon3mp.ucf(245)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [leon3mp.ucf(245)]: NET "ps2clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:435 - TRI primitive 'leon3gen.error_pad/xcv.x0/ttl0.slow0.op'
+   has unconnected output pin
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:  25
+
+Total REAL time to NGDBUILD completion:  9 sec
+Total CPU time to NGDBUILD completion:   9 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "leon3mp.bld"...
+map -w -pr b -ol high -p XC3S500E-fg320-5 leon3mp -timing
+Release 12.1 - Map M.53d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+par -ol high -w leon3mp leon3mp.ncd
+Release 12.1 - par M.53d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+
+Constraints file: leon3mp.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment /opt/Xilinx/12.1/ISE_DS/ISE.
+   "leon3mp" is an NCD, version 3.2, device xc3s500e, package fg320, speed -5
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2010-04-09".
+
+
+
+Design Summary Report:
+
+ Number of External IOBs                         108 out of 232    46%
+
+   Number of External Input IOBs                  6
+
+      Number of External Input IBUFs              6
+        Number of LOCed External Input IBUFs      6 out of 6     100%
+
+
+   Number of External Output IOBs                70
+
+      Number of External Output IOBs             70
+        Number of LOCed External Output IOBs     70 out of 70    100%
+
+
+   Number of External Bidir IOBs                 32
+
+      Number of External Bidir IOBs              32
+        Number of LOCed External Bidir IOBs      32 out of 32    100%
+
+
+   Number of BUFGMUXs                        8 out of 24     33%
+   Number of DCMs                            4 out of 4     100%
+      Number of LOCed DCMs                   2 out of 4      50%
+
+   Number of RAMB16s                         8 out of 20     40%
+   Number of Slices                       4015 out of 4656   86%
+      Number of SLICEMs                     92 out of 2328    3%
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please
+   consult the Xilinx Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 25 secs 
+Finished initial Timing Analysis.  REAL time: 26 secs 
+
+WARNING:Par:289 - The signal led(4)_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal dsubre_IBUF has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 32575 unrouted;      REAL time: 37 secs 
+
+Phase  2  : 29928 unrouted;      REAL time: 38 secs 
+
+Phase  3  : 12065 unrouted;      REAL time: 47 secs 
+
+Ctrl-C interrupt detected.
+
+
+STATUS:
+	+------------------------------------+--------------------------------+
+	| Most recent SmartPreview on disk:  |                            N/A |
+	| Fully placed:                      |                            YES |
+	| Fully routed:                      |                             NO |
+	| SmartPreview status:               |           NOT ready for bitgen |
+	| Timing score:                      |                            N/A |
+	| Timing errors:                     |                            N/A |
+	| Number of failing constraints:     |                            N/A |
+	+------------------------------------+--------------------------------+
+
+	Option 3 in the menu below will save the SmartPreview design
+	file and a timing summary in ./SmartPreview.
+
+MENU: Please choose one of the following options:
+	1. Ignore interrupt and continue processing.
+	2. Exit program immediately.
+	3. Preserve most recent SmartPreview and continue (see STATUS above).
+
+Enter choice --> 
+Entry "" not recognized.  Please try again.
+Ctrl-C interrupt detected.
+
+
+STATUS:
+	+------------------------------------+--------------------------------+
+	| Most recent SmartPreview on disk:  |                            N/A |
+	| Fully placed:                      |                            YES |
+	| Fully routed:                      |                             NO |
+	| SmartPreview status:               |           NOT ready for bitgen |
+	| Timing score:                      |                            N/A |
+	| Timing errors:                     |                            N/A |
+	| Number of failing constraints:     |                            N/A |
+	+------------------------------------+--------------------------------+
+
+	Option 3 in the menu below will save the SmartPreview design
+	file and a timing summary in ./SmartPreview.
+
+MENU: Please choose one of the following options:
+	1. Ignore interrupt and continue processing.
+	2. Exit program immediately.
+	3. Preserve most recent SmartPreview and continue (see STATUS above).
+
+Enter choice --> 
+Entry "" not recognized.  Please try again.
+Ctrl-C interrupt detected.
+
+
+STATUS:
+	+------------------------------------+--------------------------------+
+	| Most recent SmartPreview on disk:  |                            N/A |
+	| Fully placed:                      |                            YES |
+	| Fully routed:                      |                             NO |
+	| SmartPreview status:               |           NOT ready for bitgen |
+	| Timing score:                      |                            N/A |
+	| Timing errors:                     |                            N/A |
+	| Number of failing constraints:     |                            N/A |
+	+------------------------------------+--------------------------------+
+
+	Option 3 in the menu below will save the SmartPreview design
+	file and a timing summary in ./SmartPreview.
+
+MENU: Please choose one of the following options:
+	1. Ignore interrupt and continue processing.
+	2. Exit program immediately.
+	3. Preserve most recent SmartPreview and continue (see STATUS above).
+
+Enter choice --> 
+Entry "" not recognized.  Please try again.
+Ctrl-C interrupt detected.
+
+
+STATUS:
+	+------------------------------------+--------------------------------+
+	| Most recent SmartPreview on disk:  |                            N/A |
+	| Fully placed:                      |                            YES |
+	| Fully routed:                      |                             NO |
+	| SmartPreview status:               |           NOT ready for bitgen |
+	| Timing score:                      |                            N/A |
+	| Timing errors:                     |                            N/A |
+	| Number of failing constraints:     |                            N/A |
+	+------------------------------------+--------------------------------+
+
+	Option 3 in the menu below will save the SmartPreview design
+	file and a timing summary in ./SmartPreview.
+
+MENU: Please choose one of the following options:
+	1. Ignore interrupt and continue processing.
+	2. Exit program immediately.
+	3. Preserve most recent SmartPreview and continue (see STATUS above).
+
+Enter choice --> 
+Entry "" not recognized.  Please try again.
+Ctrl-C interrupt detected.
+
+
+STATUS:
+	+------------------------------------+--------------------------------+
+	| Most recent SmartPreview on disk:  |                            N/A |
+	| Fully placed:                      |                            YES |
+	| Fully routed:                      |                             NO |
+	| SmartPreview status:               |           NOT ready for bitgen |
+	| Timing score:                      |                            N/A |
+	| Timing errors:                     |                            N/A |
+	| Number of failing constraints:     |                            N/A |
+	+------------------------------------+--------------------------------+
+
+	Option 3 in the menu below will save the SmartPreview design
+	file and a timing summary in ./SmartPreview.
+
+MENU: Please choose one of the following options:
+	1. Ignore interrupt and continue processing.
+	2. Exit program immediately.
+	3. Preserve most recent SmartPreview and continue (see STATUS above).
+
+Enter choice --> trce -v 25 leon3mp.ncd leon3mp.pcf
+Release 12.1 - Trace  (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+/opt/Xilinx/12.1/ISE_DS/ISE.
+   "leon3mp" is an NCD, version 3.2, device xc3s500e, package fg320, speed -5
+
+CNTRL-C interrupt detected during timing analysis.
+
+Please choose one of the following options:
+	1. Continue processing and ignore the interrupt.
+	2. Discontinue processing and generate an incomplete
+	   report file.
+	3. Exit program immediately.
+
+Enter choice --> bitgen leon3mp -l -m -w -d -f ../../boards/digilent-xc3s500e/default.ut
+Release 12.1 - Bitgen M.53d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+/opt/Xilinx/12.1/ISE_DS/ISE.
+   "leon3mp" is an NCD, version 3.2, device xc3s500e, package fg320, speed -5
+Opened constraints file leon3mp.pcf.
+
+Thu Mar  3 23:19:25 2011
+

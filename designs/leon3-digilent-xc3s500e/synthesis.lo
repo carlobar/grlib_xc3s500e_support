@@ -1,0 +1,9 @@
+../../bin/route_ngc leon3mp leon3mp.ucf XC3S500E-fg320-5 high ../../boards/digilent-xc3s500e/default.ut ../../netlists/xilinx/Spartan3E -timing
+ngdbuild leon3mp.ngc -aul -uc leon3mp.ucf -p XC3S500E-fg320-5 -sd ../../netlists/xilinx/Spartan3E/xst -sd ../../netlists/xilinx/Spartan3E
+Release 12.1 - ngdbuild M.53d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/12.1/ISE_DS/ISE/bin/lin/unwrapped/ngdbuild leon3mp.ngc
+-aul -uc leon3mp.ucf -p XC3S500E-fg320-5 -sd ../../netlists/xilinx/Spartan3E/xst
+-sd ../../netlists/xilinx/Spartan3E
+
